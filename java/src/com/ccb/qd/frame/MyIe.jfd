@@ -1,0 +1,23 @@
+JFDML JFormDesigner: "5.1.2.0.134" Java: "1.8.0_25" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class java.awt.BorderLayout ) ) {
+			name: "frame1"
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JEditorPane" ) {
+					name: "editorPane1"
+					"editable": false
+					addEvent( new FormEvent( "javax.swing.event.HyperlinkListener", "hyperlinkUpdate", "editorPane1HyperlinkUpdate", true ) )
+				} )
+			}, new FormLayoutConstraints( class java.lang.String ) {
+				"value": "Center"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 655 )
+			"size": new java.awt.Dimension( 785, 459 )
+		} )
+	}
+}

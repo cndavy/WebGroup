@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="_csrf_parameter" content="_csrf"/>
+    <meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+    <meta name="_csrf" content="2408fe62-83f4-430b-9f08-74df4210f478"/>
+    <title>
+      全国企业信用信息公示系统
+    </title>
+    <link href="/skin/css/public3.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="/skin/js/jquery-1.9.1.min.js">
+    </script>
+    <script type="text/javascript" src="/skin/js/gs/utils.js">
+    </script>
+    <script type="text/javascript" src="/skin/js/gs/gsgs.js">
+    </script>
+    <script type="text/javascript" src="/skin/js/gs/gsjyyc.js">
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+	var encrpripid = 'c67275c789ebb4e86d4b1abeef96b627';
+	var webroot ='/';
+	var enttype='1100';
+
+	function r1() {
+		$("#jibenxinxi").css("display", "block");
+		$("#beian").css("display", "none");
+		$("#guquanchuzhi").css("display", "none");
+		$("#dongchandiya").css("display", "none");
+		$("#jingyingyichangminglu").css("display", "none");
+		$("#yanzhongweifaqiye").css("display", "none");
+		$("#xingzhengchufa").css("display", "none");
+		$("#chouchaxinxi").css("display", "none");
+	}
+	function r2() {
+		$("#jibenxinxi").css("display", "none");
+		$("#beian").css("display", "block");
+		$("#guquanchuzhi").css("display", "none");
+		$("#dongchandiya").css("display", "none");
+		$("#jingyingyichangminglu").css("display", "none");
+		$("#yanzhongweifaqiye").css("display", "none");
+		$("#xingzhengchufa").css("display", "none");
+		$("#chouchaxinxi").css("display", "none"); 
+		getRyxx();	
+		getFzjg();
+		}
+	function r3() {
+		$("#jibenxinxi").css("display", "none");
+		$("#beian").css("display", "none");
+		$("#guquanchuzhi").css("display", "block");
+		$("#dongchandiya").css("display", "none");
+		$("#jingyingyichangminglu").css("display", "none");
+		$("#yanzhongweifaqiye").css("display", "none");
+		$("#xingzhengchufa").css("display", "none");
+		$("#chouchaxinxi").css("display", "none"); 
+		getGqcz();
+	}
+	function r4() {
+		$("#jibenxinxi").css("display", "none");
+		$("#beian").css("display", "none");
+		$("#guquanchuzhi").css("display", "none");
+		$("#dongchandiya").css("display", "block");
+		$("#jingyingyichangminglu").css("display", "none");
+		$("#yanzhongweifaqiye").css("display", "none");
+		$("#xingzhengchufa").css("display", "none");
+		$("#chouchaxinxi").css("display", "none"); 
+		getDcdy();
+	}
+	function r5() {
+		$("#jibenxinxi").css("display", "none");
+		$("#beian").css("display", "none");
+		$("#guquanchuzhi").css("display", "none");
+		$("#dongchandiya").css("display", "none");
+		$("#jingyingyichangminglu").css("display", "block");
+		$("#yanzhongweifaqiye").css("display", "none");
+		$("#xingzhengchufa").css("display", "none");
+		$("#chouchaxinxi").css("display", "none"); 
+		getJyyc();
+	}
+	function r6() {
+		$("#jibenxinxi").css("display", "none");
+		$("#beian").css("display", "none");
+		$("#guquanchuzhi").css("display", "none");
+		$("#dongchandiya").css("display", "none");
+		$("#jingyingyichangminglu").css("display", "none");
+		$("#yanzhongweifaqiye").css("display", "block");
+		$("#xingzhengchufa").css("display", "none");
+		$("#chouchaxinxi").css("display", "none"); 
+		getYzwfqy();
+	}
+	function r7() {
+		$("#jibenxinxi").css("display", "none");
+		$("#beian").css("display", "none");
+		$("#guquanchuzhi").css("display", "none");
+		$("#dongchandiya").css("display", "none");
+		$("#jingyingyichangminglu").css("display", "none");
+		$("#yanzhongweifaqiye").css("display", "none");
+		$("#xingzhengchufa").css("display", "block");
+		$("#chouchaxinxi").css("display", "none"); 
+		getXzcf();
+	}
+	function r8() {
+		$("#jibenxinxi").css("display", "none");
+		$("#beian").css("display", "none");
+		$("#guquanchuzhi").css("display", "none");
+		$("#dongchandiya").css("display", "none");
+		$("#jingyingyichangminglu").css("display", "none");
+		$("#yanzhongweifaqiye").css("display", "none");
+		$("#xingzhengchufa").css("display", "none");
+		$("#chouchaxinxi").css("display", "block"); 
+		 getCcjc();
+	}
+
+	function togo(str) {
+		if (str == '1') {
+			window.location = '../../gsgsdetail/1100/c67275c789ebb4e86d4b1abeef96b627';
+		} else if (str == '2') {
+			window.location = '../../qygsdetail/1100/c67275c789ebb4e86d4b1abeef96b627';
+		} else if (str == '3') {
+			window.location = '../../qtgsdetail/1100/c67275c789ebb4e86d4b1abeef96b627';
+		} else if (str == '4') {
+			window.location = '../../sfgsdetail/1100/c67275c789ebb4e86d4b1abeef96b627';
+		}
+	}
+
+//]]>
+    </script>
+    <script type="text/javascript">
+//<![CDATA[
+
+    var czxxliststr ='[{"blicno":"*****","blictype":"中华人民共和国居民身份证","inv":"刘新霞","invtype":"非农民自然人","liacconam":10,"lisubconam":10,"pripid":"3702022807332","recid":"d5d414f7db2d13d6ffc37c9a778255aacda30f7767b5f0f203e7f906b54a1f32","xzqh":"2"},{"blicno":"*****","blictype":"中华人民共和国居民身份证","inv":"张秀平","invtype":"非农民自然人","liacconam":40,"lisubconam":40,"pripid":"3702022807332","recid":"6b5f9d41c7a9d2130225eb0f05959856cda30f7767b5f0f203e7f906b54a1f32","xzqh":"2"}]';
+    var bgsxliststr ='[]';
+    var czxxlist=null;
+    var bgsxlist=null;
+	$(document)
+			.ready(
+					function() {
+						var isjyyc=false;
+						var hasccjc=false;
+						if(isjyyc){
+							r5();
+							changeStyle('tabs',$("#5"));
+						}else if(hasccjc){
+								r8();
+								changeStyle('tabs',$("#8"));
+						 }
+						//出资信息
+						if(''!=czxxliststr){
+							czxxlist =eval('('+czxxliststr.replace(/\r/ig, "").replace(/\n/ig, "")+')');
+						    setczxxpagenumbers(czxxlist.length);//出资信息分页
+						    czxxpage(1);
+						}
+						//变更事项
+						if(''!=bgsxliststr){
+							bgsxlist =eval('('+bgsxliststr.replace(/\r/ig, "").replace(/\n/ig, "")+')');
+						    setbgsxpagenumbers(bgsxlist.length);//出资信息分页
+						    bgsxpage(1);
+						}
+					});
+	//出资信息分页
+	function setczxxpagenumbers(size){
+		if(size==0) return;
+		var   count=Math.ceil(size/5);
+		$("#tzrpages").append("<span><a href='javascript:czxxpage(1);'>&lt;&lt;</a></span>&nbsp;&nbsp;");
+		for (var i = 0; i <count; i++) {
+			$("#tzrpages").append("<a href='javascript:czxxpage("+(i+1)+");'>"+(i+1)+"</a>&nbsp;&nbsp;");
+		};
+		$("#tzrpages").append("</span><span><a href='javascript:czxxpage("+count+");'>&gt;&gt;</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+	}
+	//出资信息分页
+	function czxxpage(page){
+		$("#czxxtable").children().remove();
+		for (var i= 5*(page-1); i < 5*page; i++) {
+			if(i<czxxlist.length){
+				var czxx=czxxlist[i];
+				if(czxx.xzqh=="1"){
+					$("#czxxtable")
+					.append(
+							"<tr>"
+									+ "<td>"
+									+ czxx.invtype
+									+ "</td>"
+									+ "<td>"
+									+ czxx.inv
+									+ "</td>"
+									+ "<td>" 
+									+ czxx.blictype
+									+ "</td>"
+									+ "<td>"
+									+ czxx.blicno
+									+ "</td>"
+									+ "<td>"
+									+ '<a href="'+webroot+'pub/gsnzczxxdetail/'+encrpripid.toString()+'/'+czxx.recid+'" target="_blank">详情</a>'
+									+ "</td>"
+									+ "</tr>");	
+				}else{
+					$("#czxxtable")
+					.append(
+							"<tr>"
+									+ "<td>"
+									+ czxx.invtype
+									+ "</td>"
+									+ "<td>"
+									+ czxx.inv
+									+ "</td>"
+									+ "<td>"
+									+ czxx.blictype
+									+ "</td>"
+									+ "<td>"
+									+ czxx.blicno
+									+ "</td>"
+									+ "<td>"
+									+ "</td>"
+									+ "</tr>");	
+				}
+			}
+		}
+	}
+	//变更信息分页
+	function setbgsxpagenumbers(size){
+		if(size==0) return;
+		var  count=Math.ceil(size/5);
+		$("#bgsxpages").append("<span><a href='javascript:bgsxpage(1);'>&lt;&lt;</a></span>&nbsp;&nbsp;"); 
+		for (var i = 0; i <count; i++) {
+			$("#bgsxpages").append("<a href='javascript:bgsxpage("+(i+1)+");'>"+(i+1)+"</a>&nbsp;&nbsp;");
+		};
+		$("#bgsxpages").append("</span><span><a href='javascript:bgsxpage("+count+");'>&gt;&gt;</a></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
+	}
+	//变更事项分页
+	function bgsxpage(page){
+		$("#bgsxtable").children().remove();
+		var recordHtml="";
+		var altbe="";
+		var altaf="";
+		for (var i= 5*(page-1); i < 5*page; i++) {
+			if(i<bgsxlist.length){
+				var bgsx=bgsxlist[i];
+				altbe=(null!=bgsx.altbe&&undefined !=bgsx.altbe?bgsx.altbe:"");
+				altaf=(null!=bgsx.altaf&&undefined !=bgsx.altaf?bgsx.altaf:"");
+				recordHtml="<tr><td>"+ bgsx.altitem + "</td><td>";
+				if(altbe.length>40){
+					recordHtml+='<span id="beless'+i+'" style="display:block">';
+					recordHtml+=altbe.substring(0,40);
+					recordHtml+='<a href="###" onclick="v1h2(\'bemore'+i+'\',\'beless'+i+'\')">更多</a></span>';
+					recordHtml+='<span id="bemore'+i+'" style="display:none">';
+					recordHtml+=altbe;
+					recordHtml+='<a href="###" onclick="v1h2(\'beless'+i+'\',\'bemore'+i+'\')">收起更多</a></span>';
+				}else{
+					recordHtml+=altbe;
+				}
+				recordHtml+="</td><td>";
+				 if(altaf.length>40){
+					 recordHtml+='<span id="afless'+i+'" style="display:block">';	
+					 recordHtml+=altaf.substring(0,40);
+					 recordHtml+='<a href="###" onclick="v1h2(\'afmore'+i+'\',\'afless'+i+'\')">更多</a></span>';
+					 recordHtml+='<span id="afmore'+i+'" style="display:none">';
+					 recordHtml+=altaf;
+					 recordHtml+='<a href="###" onclick="v1h2(\'afless'+i+'\',\'afmore'+i+'\')">收起更多</a></span>';
+				 }else{
+					 recordHtml+=altaf;
+				 }
+				 recordHtml+="</td><td>"+ (JsonSetTime(bgsx.altdate))+"</td></tr>";
+	
+				$("#bgsxtable").append(recordHtml);
+			}
+		}
+	}
+
+//]]>
+    </script>
+    <script type="text/javascript" defer="defer">
+//<![CDATA[
+
+	function changeStyle(divId, ele) {
+		var liAry = document.getElementById(divId).getElementsByTagName("li");
+		var liLen = liAry.length;
+		var liID = ele.id;
+		for (var i = 0; i <liLen; i++) 
+		{
+			if (liAry[i].id == liID) 
+			{
+				
+				liAry[i].className = "current";
+ } else 
+			{
+				liAry[i].className = "";
+			}
+			;
+		}
+		;
+	}
+
+	function ShowSpan(obj, n) {
+		var span = obj.parentNode.getElementsByTagName("tabs");
+		for (var i = 0; i <span.length; i++) {
+			span[i].className = "current";
+		}
+		span[n].className = "";
+		var li = obj.parentNode.getElementsByTagName("li");
+		li[n].className = "current";
+		for (var i = 0; i <li.length; i++) {
+			if (i != n) {
+				li[i].className = "";
+			}
+			li[i].onmouseout = function() {
+				this.className = "current";
+			};
+		}
+		;
+	}
+	function v1h2(first,second){
+		$("#"+first+"").css("display", "block");
+		$("#"+second+"").css("display", "none");
+	}
+
+//]]>
+    </script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="top">
+        <div class="top-a">
+          <a href="http://gsxt.saic.gov.cn/">
+            全国首页
+          </a>
+          
+					??
+					 
+          <a href="/">
+            地方局首页
+          </a>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div id="details" class="clear">
+      <h2 id="mct">
+        青岛真源广告有限公司??
+			???? ?? 注册号：3702022807332
+			
+      </h2>
+      <br/>
+      <div id="leftTabs">
+        <ul>
+          <li class="current" style="margin-bottom: 2px;">
+            <p>
+              
+						工
+              <br/>
+              商
+              <br/>
+              公
+              <br/>
+              示
+              <br/>
+              信
+              <br/>
+              息
+					
+            </p>
+          </li>
+          <li onclick="togo('2')" style="margin-bottom: 2px;">
+            <p>
+              
+						企
+              <br/>
+              业
+              <br/>
+              公
+              <br/>
+              示
+              <br/>
+              信
+              <br/>
+              息
+					
+            </p>
+          </li>
+          <li onclick="togo('3')" style="margin-bottom: 2px;">
+            <p>
+              
+						其
+              <br/>
+              他
+              <br/>
+              部
+              <br/>
+              门
+              <br/>
+              公
+              <br/>
+              示
+              <br/>
+              信
+              <br/>
+              息
+					
+            </p>
+          </li>
+          <li onclick="togo('4')" style="margin-bottom:2px;">
+            <p>
+              司
+              <br/>
+              法
+              <br/>
+              协
+              <br/>
+              助
+              <br/>
+              公
+              <br/>
+              示
+              <br/>
+              信
+              <br/>
+              息
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div id="detailsCon" style="height:auto !important;height:1030px;min-height:1030px ;">
+        <div class="dConBox">
+          <div class="tabs" id="tabs">
+            <ul>
+              <li id="1" class="current" onclick="r1(),changeStyle('tabs',this)">
+                登记信息
+              </li>
+              <li id="2" onclick="r2(),changeStyle('tabs',this)">
+                备案信息
+              </li>
+              <li id="4" onclick="r4(),changeStyle('tabs',this)">
+                动产抵押登记信息
+              </li>
+              <li id="3" onclick="r3(),changeStyle('tabs',this)">
+                股权出质登记信息
+              </li>
+              <li id="7" onclick="r7(),changeStyle('tabs',this)">
+                行政处罚信息
+              </li>
+              <li id="5" onclick="r5(),changeStyle('tabs',this)">
+                经营异常信息
+              </li>
+              <li id="6" onclick="r6(),changeStyle('tabs',this)">
+                严重违法信息
+              </li>
+              <li id="8" onclick="r8(),changeStyle('tabs',this)">
+                抽查检查信息
+              </li>
+            </ul>
+          </div>
+          <div id="jibenxinxi" style="height:auto !important;">
+            <br/>
+            <table cellspacing="0" cellpadding="0" class="detailsList">
+              <tbody>
+                <tr>
+                  <th colspan="4" style="text-align: center;">
+                    基本信息
+                  </th>
+                </tr>
+                <tr>
+                  <th width="20%">
+                    注册号
+                  </th>
+                  <td width="30%">
+                    3702022807332
+                  </td>
+                  <th>
+                    名称
+                  </th>
+                  <td width="30%">
+                    青岛真源广告有限公司
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    类型
+                  </th>
+                  <td>
+                    有限责任公司
+                  </td>
+                  <th width="20%">
+                    法定代表人
+                  </th>
+                  <td>
+                    张秀平
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    注册资本
+                  </th>
+                  <td>
+                     
+								
+							 		50万元人民币
+								
+							
+                  </td>
+                  <th width="20%">
+                    成立日期
+                  </th>
+                  <td>
+                    2002年10月10日
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    住所
+                  </th>
+                  <td colspan="3">
+                    青岛市市南区东海路37号A-1层
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    营业期限自
+                  </th>
+                  <td>
+                    2002年10月10日
+                  </td>
+                  <th>
+                    营业期限至
+                  </th>
+                  <td>
+                    2004年07月18日
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    经营范围
+                    <br/>
+                  </th>
+                  <td colspan="3">
+                    设计、制作、 发布、代理国内影视、报纸、印刷品、路牌、灯箱、霓虹灯、礼品广告业务。
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    登记机关
+                  </th>
+                  <td>
+                    青岛市工商行政管理局市南区分局
+                  </td>
+                  <th>
+                    核准日期
+                  </th>
+                  <td>
+                    2002年10月10日
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    登记状态
+                  </th>
+                  <td>
+                    吊销企业
+                  </td>
+                  <th>
+                    吊销日期
+                  </th>
+                  <td>
+                    2005年08月01日
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <br/>
+            <table cellspacing="0" cellpadding="0" class="detailsList" id="touziren">
+              <tbody>
+                <tr>
+                  <th colspan="5" style="text-align:center;">
+                    
+								股东信息
+                    <br/>
+                    <h1 style="text-align:center;">
+                      股东的出资信息截止2014年2月28日。2014年2月28日之后工商只公示股东姓名，其他出资信息由企业自行公示。
+                    </h1>
+                  </th>
+                </tr>
+                <tr>
+                  <th width="20%" style="text-align:center;">
+                    股东类型
+                  </th>
+                  <th width="20%" style="text-align:center;">
+                    股东
+                  </th>
+                  <th width="20%" style="text-align:center;">
+                    证照/证件类型
+                  </th>
+                  <th width="20%" style="text-align:center;">
+                    证照/证件号码
+                  </th>
+                  <th width="20%" style="text-align:center;">
+                    详情
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="czxxtable">
+                <tr>
+                  <td>
+                    非农民自然人
+                  </td>
+                  <td>
+                    刘新霞
+                  </td>
+                  <td>
+                    中华人民共和国居民身份证
+                  </td>
+                  <td>
+                    *****
+                  </td>
+                  <td/>
+                </tr>
+                <tr>
+                  <td>
+                    非农民自然人
+                  </td>
+                  <td>
+                    张秀平
+                  </td>
+                  <td>
+                    中华人民共和国居民身份证
+                  </td>
+                  <td>
+                    *****
+                  </td>
+                  <td/>
+                </tr>
+              </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr>
+                  <th id="tzrpages" colspan="5" style="text-align: rigth;">
+                    <span>
+                      <a href="javascript:czxxpage(1);">
+                        &lt;&lt;
+                      </a>
+                    </span>
+                    ??
+                    <a href="javascript:czxxpage(1);">
+                      1
+                    </a>
+                    ??
+                    <span>
+                      <a href="javascript:czxxpage(1);">
+                        &gt;&gt;
+                      </a>
+                    </span>
+                    ???????
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+            <br/>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 95%;">
+                  <th colspan="4" style="text-align:center;">
+                    变更信息
+                  </th>
+                </tr>
+                <tr style="width: 95%;">
+                  <th width="15%" style="text-align:center;">
+                     变更事项
+                  </th>
+                  <th width="25%" style="text-align:center;">
+                     变更前内容
+                  </th>
+                  <th width="25%" style="text-align:center;">
+                     变更后内容
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                     变更日期
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="bgsxtable"/>
+            </table>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr>
+                  <th id="bgsxpages" colspan="5" style="text-align: rigth;">
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="beian" style="align: center; display: none">
+            <br/>
+            <table style="width:100%; " id="t30" cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 939px;">
+                  <th colspan="6" style="text-align:center;">
+                    主要人员信息
+                  </th>
+                </tr>
+                <tr>
+                  <th style="width:10%;text-align:center">
+                    序号
+                  </th>
+                  <th style="width:20%;text-align:center">
+                    姓名
+                  </th>
+                  <th style="width:20%;text-align:center">
+                    职务
+                  </th>
+                  <th style="width:10%;text-align:center">
+                    序号
+                  </th>
+                  <th style="width:20%;text-align:center">
+                    姓名
+                  </th>
+                  <th style="width:20%;text-align:center">
+                    职务
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsRyxxList"/>
+            </table>
+            <br/>
+            <table id="t31" cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 939px;">
+                  <th colspan="4" style="text-align: center;">
+                    分支机构信息
+                  </th>
+                </tr>
+                <tr>
+                  <th style="text-align: center; width: 10%;">
+                    序号
+                  </th>
+                  <th style="text-align: center; width: 25%">
+                    注册号
+                  </th>
+                  <th style="text-align: center; width: 25%">
+                    名称
+                  </th>
+                  <th style="text-align: center; width: 20%">
+                    登记机关
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsFzjgList">
+              </tbody>
+            </table>
+            <br/>
+            <table id="t32" cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 939px;">
+                  <th colspan="5" style="text-align: center;">
+                    清算信息
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsQsxx">
+                <tr>
+                  <th style="width:20%">
+                    清算组负责人 
+                  </th>
+                  <td colspan="4"/>
+                </tr>
+                <tr>
+                  <th>
+                    清算组成员 
+                  </th>
+                  <td/>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div id="guquanchuzhi" style="display: none">
+            <br/>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr>
+                  <th colspan="10" style="text-align:center;">
+                    股权出质登记信息
+                  </th>
+                </tr>
+                <tr>
+                  <th width="5%" style="text-align:center;">
+                    序号
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    登记编号
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    出质人
+                  </th>
+                  <th width="12%" style="text-align:center;">
+                    证照/证件号码
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    出质股权数额
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    质权人
+                  </th>
+                  <th width="12%" style="text-align:center;">
+                    证照/证件号码
+                  </th>
+                  <th width="15%" style="text-align:center;">
+                    股权出质设立登记日期
+                  </th>
+                  <th width="8%" style="text-align:center;">
+                    状态
+                  </th>
+                  <th width="8%" style="text-align:center;">
+                    变化情况
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsGqczlist"/>
+            </table>
+            <br/>
+          </div>
+          <div id="dongchandiya" style="display: none">
+            <br/>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 95%;">
+                  <th colspan="7" style="text-align:center;">
+                    动产抵押登记信息
+                  </th>
+                </tr>
+                <tr style="width: 95%;">
+                  <th width="5%" style="text-align:center;">
+                    序号
+                  </th>
+                  <th width="25%" style="text-align:center;">
+                    登记编号
+                  </th>
+                  <th width="15%" style="text-align:center;">
+                    登记日期
+                  </th>
+                  <th width="20%" style="text-align:center;">
+                    登记机关
+                  </th>
+                  <th width="15%" style="text-align:center;">
+                    被担保债权数额
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    状态
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    详情
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsDcdylist"/>
+            </table>
+            <br/>
+          </div>
+          <div id="jingyingyichangminglu" style="display: none">
+            <br/>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 95%;">
+                  <th colspan="9" style="text-align:center;">
+                    经营异常信息
+                  </th>
+                </tr>
+                <tr style="width: 95%;">
+                  <th width="5%" style="text-align:center;">
+                    序号
+                  </th>
+                  <th width="25%" style="text-align:center;">
+                    列入经营异常名录原因
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    列入日期
+                  </th>
+                  <th width="27%" style="text-align:center;">
+                    移出经营异常名录原因
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    移出日期
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    作出决定机关
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsjyyclist"/>
+            </table>
+            <br/>
+          </div>
+          <div id="yanzhongweifaqiye" style="display: none">
+            <br/>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr>
+                  <th colspan="6" style="text-align:center;">
+                    严重违法信息
+                  </th>
+                </tr>
+                <tr style="width: 95%;">
+                  <th width="5%" style="text-align:center;">
+                    序号
+                  </th>
+                  <th width="25%" style="text-align:center;">
+                    列入严重违法企业名单原因
+                  </th>
+                  <th width="13%" style="text-align:center;">
+                    列入日期
+                  </th>
+                  <th width="20%" style="text-align:center;">
+                    移出严重违法企业名单原因
+                  </th>
+                  <th width="13%" style="text-align:center;">
+                    移出日期
+                  </th>
+                  <th width="24%" style="text-align:center;">
+                    作出决定机关
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsyzwflsit"/>
+            </table>
+          </div>
+          <div id="xingzhengchufa" style="display:none">
+            <br/>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 95%;">
+                  <th colspan="7" style="text-align:center;">
+                    行政处罚信息
+                  </th>
+                </tr>
+                <tr style="width: 95%;">
+                  <th width="5%" style="text-align:center;">
+                    序号
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    行政处罚
+                    <br/>
+                    决定书文号
+                  </th>
+                  <th width="20%" style="text-align:center;">
+                    违法行为类型
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    行政处罚内容
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    作出行政处罚
+                    <br/>
+                    决定机关名称
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    作出行政处罚
+                    <br/>
+                    决定日期
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    详情
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsxzcflist"/>
+            </table>
+            <br/>
+          </div>
+          <div id="chouchaxinxi" style="display:none">
+            <br/>
+            <table cellpadding="0" cellspacing="0" class="detailsList">
+              <tbody>
+                <tr style="width: 95%;">
+                  <th colspan="5" style="text-align:center;">
+                    抽查检查信息
+                  </th>
+                </tr>
+                <tr style="width: 95%;">
+                  <th width="5%" style="text-align:center;">
+                    序号
+                  </th>
+                  <th width="35%" style="text-align:center;">
+                    检查实施机关
+                  </th>
+                  <th width="10%" style="text-align:center;">
+                    类型
+                  </th>
+                  <th width="15%" style="text-align:center;">
+                    日期
+                  </th>
+                  <th width="35%" style="text-align:center;">
+                    结果
+                  </th>
+                </tr>
+              </tbody>
+              <tbody id="gsgsccjclist"/>
+            </table>
+            <br/>
+          </div>
+        </div>
+      </div>
+      <div class="banqun">
+        
+		    
+
+
+版权所有??山东省工商行政管理局????地址：济南市燕子山路43号????邮政编码：250014
+
+        <br/>
+        <img width="30" height="25" alt="业务（技术）咨询电话" src="/skin/images/phone.png" align="middle"/>
+        <span style="height: 30px;vertical-align:middle;">
+          ：
+ 
+          <a href="/phone.html" style="color: white;" target="_blank">
+            <u>
+              业务（技术）咨询电话
+            </u>
+          </a>
+          
+ ??工作时间：周一至周五(09:00-12:00 13:30-17:00)
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
